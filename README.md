@@ -19,6 +19,9 @@ Durante o processo os números digitados estão sujeitos à validações e caso 
 1. Digitar entre 0 e 3 pois o tabuleiro é 4x4
 2. Escolher posições que ainda não foram reveladas
 
+> [!WARNING]
+> Não digite caracteres especiais, letras ou coisas do tipo, apenas números.
+
 ## 2. Explicação do código
 
 ### Armazenamento de varáveis em .data:
