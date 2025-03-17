@@ -14,7 +14,7 @@ O jogo da memória consiste em um tabuleiro 4x4 onde será pedido ao usuário pa
 | 3 | Enter the row coordinate of second card | Linha do segundo card |
 | 4 | Enter the column coordinate of second card | Coluna do segundo card |
 
-Durante o processo os números digitados estão sujeitos à validações e caso digitados errados terá que iniciar o processo de escolher o card novamente, para obter sucesso ao escolher o card deve levar em consideração as seguintes regras:\
+Durante o processo os números digitados estão sujeitos à validações e caso digitados errados terá que iniciar o processo de escolher o card novamente, para obter sucesso ao escolher o card deve levar em consideração as seguintes regras:
 
 1. Digitar entre 0 e 3 pois o tabuleiro é 4x4
 2. Escolher posições que ainda não foram reveladas
@@ -67,6 +67,11 @@ space: .asciiz " "
 | msg_all_pairs_find | Menssagem para caso todos os pares sejam encontrados |
 | msg_already_exists | Menssagem para caso o card ja tenha sido revelado |
 | msg_invalid_input | Menssagem para caso o número seja inválido |
+| hidden_symbol | Caractere "*"
+| pairsLeft | Número de pares restantes
+| cl | Quebra de linha "\n"
+| cl2 | Quebra de linha dupla "\n\n"
+| space | Espaçamento
 
 ### Explicação das funções em .text:
 
